@@ -1,0 +1,643 @@
+
+Question 1
+Which of the following is true of an Appian Solution? Select all that apply
+A solutions is a pre-built application that is usable out-of-the box
+Every solution is designed in coordination with industry SMEs
+It’s always a faster time to value
+
+
+Question 2
+What are the key capabilities of Appian’s unified low-code platform? Select all that apply.
+Automation
+Process Mining
+Workflow
+
+Question 3
+What benefit does Appian Process Mining provide for your organization’s processes?
+You can discover automation opportunities for non-Appian processes
+
+Question 4
+Appian’s RPA and IDP automation capabilities allow you to reduce manual tasks, freeing up employees to take on higher value tasks. True or false?
+True
+
+Question 5
+What is Appian Portals?
+Appian Portals is a capability that allows you to open up internal applications to unauthenticated users.
+
+
+Quiz: Design Fast with Low-Code
+Q1.
+Low-code application development means that an app can be built without coding,
+using point-and-click configuration, pre-built features and templates, and drag-and-drop components. True or False?
+True
+
+Q2.
+What types of pages will you see in a typical Appian application?
+All of these
+
+Q3.
+Appian process modeler has a limited number of pre-built nodes and smart services, so you won’t be able to add integrations or RPA to a process. True or false?
+False
+
+Q4.
+What low-code method will you use to build a record list of items in Appian?
+Point-and-click configuration
+
+Q5.
+What low-code tools will you use to build an interface?
+All of these
+
+
+
+============================================================================
+Quiz: Automate with RPA and IDP
+============================================================================
+Q1.Appian IDP is used to extract information from structured or semi-structured PDF documents and transform it into usable data.
+This data can then be routed to human workers via an Appian process. True or false?
+True
+
+Q2.What are the key benefits of automating your business workflows using Appian automation capabilities?
+All of these
+
+Q3. Appian RPA is used to automate high-volume manual tasks, and often the only solution when you need to connect to legacy systems that lack APIs.
+True or False?
+True
+
+Q4. Once you build a robotic process, you can add it to a longer Appian process using …
+Smart service
+
+Q5.Once the Appian IDP application classifies and extracts data from a document, you can add it to an Appian process using …
+Sub-process node
+
+
+
+============================================================================
+Quiz: Discover Opportunities with Process Mining
+============================================================================
+Q1.You’re in charge of the insight you gain from process mining. Articulate your questions upfront,
+and process mining will show you the patterns in regards to data you’ve provided. True or false?
+True
+
+Q2. What is process mining?
+A technology designed to identify and address bottlenecks in your workflows
+
+Q3. What process mining method will you use to continue monitoring and enhancing your processes?
+Process Enhancement
+
+Q4. Which process mining method will you use to compare the discovered and target models and identify the deviations between these?
+Conformance Checking
+
+Q5. What will the process discovery method help you accomplish? Select the correct answer.
+It will generate the discovered model.
+
+One of the bigest requirements we set out to ourselves to achieve from the beginning was
+efficiency scalability and connectivity or automation
+
+
+============================================================================
+Quiz: Planning the application
+============================================================================
+
+Q1. What are the key components of application planning?
+Personas, data points, records, process models, reports
+
+Q2. Which of the following is not a measurable result of using a customer service application?
+Customer service will use the application to record maintenance
+
+Q3. In Appian, how is a record defined?
+Record types help you define the data model used in your app. Users can view and take action on data using records
+
+Q4. In Appian, process models can perform activities to capture and modify data. True or False?
+True
+
+Q5. Why is it important to write the purpose and goals of an application? You may select more than one answer.
+To obtain consensus from stakeholders
+To define the application’s scope
+To help validate the completed application’s success
+
+
+
+============================================================================
+Quiz: Personas and Groups
+============================================================================
+
+Q1.  After identifying groups, what should you do next?
+ After identifying groups, what should you do next?
+
+Q2. Which groups should every application have, at a minimum?
+All Users, Administrators
+
+Q3. Why do users have to be assigned to groups?
+Access to application components is assigned to groups
+
+Q4.  What is a persona?
+A representation of a group of people with similar needs who will work in the application
+
+Q5. What is the purpose of a permissions matrix?
+Defining which groups have or are denied access to application functions and records
+
+
+============================================================================
+Quiz: Data Design and Records
+============================================================================
+Q1. In the Acme Auto example, why does the Maintenance entity contain the Vehicle ID as a field?
+To join the Vehicles and Maintenance data types
+So you can query the maintenance requests by Vehicle ID
+
+Q2. Which of the following are acceptable ways to obtain data for an application? You may select more than one answer.
+Web services
+Data created in Appian
+Database query results
+External relational databases
+
+Q3. After identifying all of the data points that need to be used in your application, how should you organize them into Records?
+Logical grouping of related data
+
+Q4. What’s an example of a data entity?
+Vehicle
+
+Q5. Data used in an application must originate from a relational database. True or False?
+False
+
+============================================================================
+Quiz: Records
+============================================================================
+Q1. Why is it important to know which devices will be used to access records?
+So that records are designed for optimal viewing and usage on the devices
+
+Q2. In the Summary view, a user can perform actions on a specific record. True or False?
+True
+
+Q3. ​What is the definition of a record in Appian?​
+An actionable view of data collected from various sources
+
+Q4. Which of the following can be displayed in a List view? You may select more than one answer.
+Progress bars
+Text
+Photos
+Icons
+
+Q5. How does a Summary view differ from a List view?
+Summary view provides more details about a record
+
+
+============================================================================
+Quiz: Process Models
+============================================================================
+Q1. When creating a process model, which of the following should you identify? You may select more than one answer.
+Record types that will be linked through related actions
+Interfaces used to enter data
+Data types
+
+Q2. Which of the following would be an allowable step in a process model? You may select more than one answer.
+Saving data to a database
+Filling out a form
+Querying a database
+Changing field values for a record
+
+Q3. What are the characteristics of a process model? You may select more than one answer.
+Start and end nodes
+Swim lanes
+Sequenced steps required to complete a process
+
+Q4. A process can be started by selecting a related action in a record. True or False?
+True
+
+Q5. How do you depict processes in Appian’s Process Modeler?
+Drag and drop nodes from the palette to the canvas
+
+============================================================================
+Quiz: Reports
+============================================================================
+Q1. What is a reason for determining reporting requirements during the planning stage? You may select more than one answer.
+Report content can affect data structure design
+To verify the reports meet stakeholder requirements
+To identify the sources of report data
+
+Q2. Which of the following are possible sources of data for a report. You may select more than one answer.
+Data entered in an interface
+Data generated from a web application
+Data generated from a process model
+Data stored in external databases
+
+Q3.  It is possible to show multiple charts in a single report. True or False?
+True
+
+Q4.  Which type of report focuses on operational efficiency and bottlenecks?
+Process metrics
+
+Q5. Which type of report focuses on key performance indicators, such as revenue or customer satisfaction?
+Business value
+
+============================================================================
+Quiz: Get Ready to Create an Application
+============================================================================
+Q1. From which location do you create an application?
+The Appian Designer
+
+Q2. What is the Appian Designer used for?
+Creating objects
+Managing objects
+Managing applications
+Creating applications
+
+
+Q3. You should not create a dedicated application for each business solution. True or False?
+False
+
+============================================================================
+Quiz: Create an Application
+============================================================================
+Q1. What’s the application prefix used for?
+To name objects created for the application
+
+Q2. Match each application creation option with its description.
+Create from Scratch -> Creates only the application and no objects
+Basic -> Creates the application, a record type, and record-related objects
+Full -> Creates the application, a record type, and objects that perform a variety of functions
+
+Q3. What do you need to specify when creating a basic or full application?
+The name of a record type
+The application name
+
+============================================================================
+Quiz: Manage Objects in the Appian Designer
+============================================================================
+Q1. Match the object type with its description.
+Groups -> Different personas who will interact with the application
+Records -> The primary way to manage data in Appian
+Sites -> A way for users to view and interact with applications
+Process Models -> Used to drive actions performed in the application
+
+Q2. What is stored under the Knowledge Center folder?
+Documents
+Any type of file uploaded to an application
+Images
+
+Q3. Under which parent folder would you store interfaces?
+Rules
+
+Q4. Which action(s) would you take to locate interfaces that contain the word “Add” in their name?
+Type Add in the object search field.
+Mark the Interface checkbox in the Objects view.
+
+Q5. How can you access the commands to delete or duplicate an object?
+In the Objects view, select an object.
+
+
+============================================================================
+Quiz: Manage Applications in the Appian Designer
+============================================================================
+Q1. Which command button would you use to transfer a completed application from a development to testing environment?
+Export
+
+Q2. Deleting an application also deletes its objects. True or False?
+False
+
+Q3.How can you identify which application an object belongs to?
+The application prefix
+
+Q4. How do you access an application's properties?
+Click the gear icon.
+
+Q5. Which workspaces can be accessed from the grid icon?
+Administration Console
+Cloud Database
+
+
+============================================================================
+Quiz: User Types
+============================================================================
+Q1. Can a Basic User get access to the Appian Designer?
+Yes. Simply add this basic user to the Designers system group.
+
+Q2. Which statements about Basic Users and System Administrators are correct?
+Basic Users don’t have the default access to app features in a Site or Tempo
+Only System Admins can create users and access everything in the Appian Designer
+Basic Users do not have access to the Admin Console
+
+Q3. System Administrators can create new users by navigating to the Admin Console. Access to user creation is located under the Users tab.
+True
+
+
+
+============================================================================
+Quiz: Why Groups
+============================================================================
+Q1. Which are the primary purposes of groups?
+All of the above
+
+Q2. As a best practice, applications and objects should be secured using individual users.
+False
+
+
+============================================================================
+Quiz: Application Groups
+============================================================================
+Q1. What statements describe the All Users and Administrators accurately?
+The Administrators group is the child group of All Users
+Administrators can create, modify, delete, and secure objects in an app
+All Users is the parent group for all other groups in the app
+
+Q2. Functional or Role-Based groups are designed for the business users of the app.
+True
+
+Q3. Which statements in this list describe Appian’s best practices for groups?
+It is often  best to create groups as you go
+Your groups should not mirror a complete organizational chart
+Only create the groups that you need for security and tasks at the moment
+Avoid creating groups ahead of time
+
+
+============================================================================
+Quiz: Create Groups
+============================================================================
+Q1. All Users is the parent group for all other groups in an app. From the list below, select all statements about the parent-child relationship that are correct:
+You will add users only to child groups
+Child groups and users will be added to the All Users group automatically
+Once we secure All Users, child groups will inherit its security setting
+All Users is the first group to be secured. Use the Administrators group to secure All Users
+
+Q2. How do you set up the parent-child relationship between the groups in an application?
+When you set up the child groups, remember to select the app-specific All Users group in the Parent Group field.
+You don't need to set it up if you create a group from within the All Users group. Appian will know All Users is the parent group.
+
+
+============================================================================
+Quiz: Using the Expression Editor
+============================================================================
+Q1. Which of the following is an operator in an expression?
+&
+
+Q2. Where in the expression editor can you find guidance on using an Appian function?
+The documentation section
+
+Q3. What are the four sections of the expression editor?
+Editor
+Documentation
+Testing
+Rule Inputs
+
+Q4. What’s an example of combining a literal value and a variable?
+“Ticket # “ & ri!ticketID
+
+Q5. Which components are in the expression: if( ri!value = 2, "It equals 2", "It does not equal 2" )
+Appian function, operator, variable and literal values
+
+
+============================================================================
+Quiz: Data Types
+============================================================================
+Q1. Which data type holds the data returned by a query?
+DataSubset
+
+Q2. What’s a characteristic of a complex data type?
+Non-modifiable structure of pre-defined fields
+
+Q3. Which of the following is a primitive data type?
+Boolean values
+Numbers
+Dates
+
+Q4. Which data type would you likely use to organize information related to a customer’s profile, such as name, address, and phone number?
+Custom Data Type
+
+Q5. How can you check the data type returned by an expression?
+By testing the expression
+
+
+============================================================================
+Quiz: Appian Functions
+============================================================================
+Q1. How can you access a list of Appian functions?
+Click the View Functions toolbar button in the editor
+Check docs.appian.com
+Type “fun” in the expression editor
+
+Q2. Currency functions return text values. True or False?
+True
+
+Q3. In an if() function, how do you specify that two conditions must be true?
+Use the and() function
+
+Q4. Which prefix is used to identify Appian SAIL functions?
+a!
+
+Q5. Which function returns the name of the user who is currently interacting with a screen?
+LoggedInUser()
+
+============================================================================
+Quiz: Variables
+============================================================================
+Q1. Why are rule inputs used in an expression?
+To pass in values to the expression at runtime
+
+Q2. How do you reference a rule input in an expression?
+ri!
+
+Q3. What’s the best practice for specifying a specific date in the past in an expression?
+Use a constant
+
+Q4. What is the defining feature of a local variable?
+A local variable can only be used within the expression that defines it.
+
+Q5. Which is the correct sequence used to define a local variable named “Number”?
+a!localVariables(local!number:
+
+Q6. How can an expression check for null values being passed through a rule input?
+Use the isnull() function
+
+
+============================================================================
+Quiz: Arrays
+============================================================================
+Q1. Arrays in Appian represent a collection of data that typically relate to one other in some way. True or False?
+True
+
+Q2. What is the benefit of using Map instead of Dictionary?
+Avoids conversions/casting
+
+Q3. Dot-notation is preferred over Index() beacuse it is more reliable.  True or False?
+False
+
+Q4. To create a basic Map of values, which is the correct formatting for the expression?
+a!map( make: "honda", type: "sedan", year: 2005, mileage: 46597 )
+
+Q5. To create a basic array of values, which is the correct formatting for the expression?
+{“honda”,”sedan”,2005,46987}
+
+============================================================================
+Quiz: Conversions
+============================================================================
+Q1. To change the data type of “12/12/21” to a date type, what would the expression look like?
+todate(“12/12/21”)
+
+Q2. In some cases, a conversion function may not provide the desired result. What other function might achieve the desired result?
+cast()
+
+Q3. The purpose of a  conversion function is to change the data type of a given value. True or False?
+True
+
+Q4. If the structure of your data is of the Map type, you are less likely to get the AnyType data type returned by an expression. True or False?
+True
+
+Q5. To keep the structure of a List of Variant array intact and just convert it to a text data type, what would the expression look like?
+touniformstring( { "honda", "sedan", 2005, 49786 } )
+
+============================================================================
+Quiz: Calling Objects
+============================================================================
+Q1. A global object application is a good place to store non-application-specific, reusable objects. True or False?
+True
+
+Q2. If you call an interface using the expression; rule!AA_ReusableVehicleSection(vehicle: ri!vehicle), what parameters must be passed in?
+Values passed in through the vehicle rule input
+
+Q3. What is the prefix used to reference an expression rule?
+rule!
+
+Q4. If you find an object being used by a different application, it's OK to modify it for use in your applicaiton. True or False?
+False
+
+Q5. What is the expression prefix used to reference a constant?
+cons!
+
+
+
+============================================================================
+Quiz: Testing and Troubleshooting Expressions
+============================================================================
+Q1.It is recommended that you test as often as you can when building a complex expression versus waiting until the end. True or False?
+True
+
+Q2. By default, when an expression rule is saved, it saves the latest version,  but does not delete the previous version. True or False?
+True
+
+Q3. What does a red triangle mean when it is displayed in the expression editor?
+Syntax error
+
+Q4. What is the reason for the following error message?
+Expression evaluation error: Syntax error. Details: Expression evaluation error at function a!queryEntity parameter 2 [line 3]: The Target is missing.
+It’s missing a comma
+
+Q5. When dealing with variables in an expression, you should create test cases for: a valid value, invalid value and a null value. True or False?
+True
+
+
+============================================================================
+Quiz: What are Appian Records?
+============================================================================
+Q1. Where can the data for a record type come from? (select all that apply)
+Salesforce
+Databases
+Other web services
+Processes
+
+Q2. You can take action on data from within a record.
+True
+
+Q3. What is the best definition of a record in Appian?
+An actionable, user view of all of the data an organization collects about a single object or process
+
+Q4. Enabling data sync allows Appian to cache a copy of your external data.
+True
+
+Q5. What feature allows you to connect your data from different source types, and then seamlessly access, reference, and take action on this data throughout your applications?
+Record Type relationships
+
+============================================================================
+Quiz: Plan and Design Effective Records
+============================================================================
+Q1. It’s important for a record to be which of the following? (Select all that apply)
+Easily accessible
+Actionable
+Visually-appealing
+Well organized
+
+Q2. What is record-centric design?
+Designing your application processes around taking action on data that’s displayed in a record
+
+Q3. What should you avoid when creating records? (select all that apply)
+Creating records that everyone can see
+Creating process-backed records unnecessarily
+
+Q4. What are the benefits of adding multiple views to your record type? (select all that apply)
+You can secure different views for particular groups
+You can remove data from the summary view so it does not overwhelm the user
+You can organize supporting data into its own view
+
+Q5. You should add multiple user filters to the record type.
+True
+
+============================================================================
+Quiz: Create a Record Type Object and Apply Security
+============================================================================
+Q1. Records focus strictly on the data itself (its type, value, and source).
+False
+
+Q2. What are the three primary elements that make up a record type object?
+Records
+Record data
+Record list
+
+Q3. When configuring your data source you can: (select all that apply)
+Change the record field type
+Move the order of a field up or down
+Remove fields
+Change record field names
+
+Q4. An accurate definition of data sync is an internal version of your source data, also known as a cached copy of your data.
+True
+
+Q5. What happens when Appian skips a failed sync? (select all that apply)
+Data from the last successful sync is used
+Administrators receive an email notification
+Details about a skipped sync can be viewed under Sync History
+
+Q6. When setting up a security rule, you can determine which users can view certain records.
+True
+
+
+============================================================================
+Quiz: Configure the Record List
+============================================================================
+Q1. The record list is a drillable list that users can search and filter to find records.
+True
+
+Q2. What are three panes you can use in the edit record list interface?
+Configuration
+Navigation
+Preview
+
+Q3. Which variable prefix is used to configure the data for each row in the grid?
+fv!
+
+Q4. What do custom record fields allow you to do?
+Use templates or expressions to define how your record data is calculated, simplified, or transformed, then present those values as new fields in your record type
+
+Q5. Using a record-grid interface is an alternative way to show record type data, including filtering, paging, and record actions.
+True
+
+
+============================================================================
+Quiz: Filters and Record Actions
+============================================================================
+Q1. What is the “context” expression?
+It allows you to map record data to process variables to kick off a related action
+
+Q2. What’s the difference between an action and a related action?
+Related actions are in the context of a record, so you can pass in record data to start the process
+
+Q3. In order to pass data from a record to a process, you must do which of the following?
+Configure parameterized process variables that will receive data from the record
+
+Q4. You can generate a record list and related action inside the record type object.
+True
+
+Q5. In order to create a user filter that contains dynamic choices, what do you need to do?
+Create an expression-based user filter
+
+Q6. When creating a new record, you must save it to a folder.
+False
+
+
